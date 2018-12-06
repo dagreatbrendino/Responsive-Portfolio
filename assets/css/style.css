@@ -126,8 +126,7 @@ body{
     color: rgb(167, 167, 167);
 } */
 /* container for individual projects */
-/* .projects{
-    margin: 0 0 15px 25px;
+.projects{
     display: inline-flex;
     border: lightgray solid 1px;
     opacity: .7;
@@ -136,7 +135,17 @@ body{
     display: inline-flex;
     border: lightgray solid 1px;
     opacity: 1;
-} */
+}
+.projectLabels{
+    position: absolute;
+    text-align: center;
+    margin-top: -100px;
+    background-color: #6ed3cf;
+    width: 300px;
+    border-top: solid #6ed3cf 13px;
+    border-bottom: solid #6ed3cf 13px;
+    color: white;
+}
 /* contact header */
 /* #contact{
     font-family: 'Georgia', Times, Times New Roman, serif;
@@ -145,25 +154,6 @@ body{
     color: #6ed3cf;
     font-size: 32px;
     margin: 5px 25px 20px 25px;
-} */
-/* portfolio header */
-/* #portfolio{
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    padding-bottom: 15px;
-    border-bottom: lightgray solid 3px;
-    color: #6ed3cf;
-    font-size: 32px;
-    margin: 5px 25px 20px 25px;
-}
-.projectLabels{
-    position: absolute;
-    text-align: center;
-    margin-top: 200px;
-    background-color: #6ed3cf;
-    width: 300px;
-    border-top: solid #6ed3cf 13px;
-    border-bottom: solid #6ed3cf 13px;
-    color: white;
 } */
 /* headlines for inputs */
 /* .contactHeads{
@@ -256,5 +246,19 @@ textarea{
     .bio{
         width: 92%;
         margin: 0 auto;
+    }
+    .portfolio{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .projects{
+        margin-bottom: 10px;
+        opacity: 1 !important;
+        width:92%;
+    }
+    .projects img, .projects a{
+        width: 100%;
+        height: auto;
     }
 }
