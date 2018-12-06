@@ -139,12 +139,15 @@ body{
 .projectLabels{
     position: absolute;
     text-align: center;
-    margin-top: -100px;
+    top:75%;
     background-color: #6ed3cf;
-    width: 300px;
+    width: 100%;
     border-top: solid #6ed3cf 13px;
     border-bottom: solid #6ed3cf 13px;
     color: white;
+}
+.projects a{
+    position: relative;
 }
 /* contact header */
 /* #contact{
