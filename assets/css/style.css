@@ -233,4 +233,28 @@ textarea{
         text-align: center;
         padding: 8px 0px;
     }
+    .contenthead{
+        color: #6ed3cf;
+        width: 92%;
+        margin: 10px auto;
+        padding-bottom: 10px;
+        border-bottom: 2px solid #cccccc;
+    }
+    .content{
+        box-sizing: border-box;
+        width: 95%;
+        background-color:white;
+        border: 2px solid #cccccc;
+        margin: 0 auto;
+    }
+    .me{
+        display: block;
+        width: 92%;
+        height: auto;
+        margin: 20px auto;
+    }
+    .bio{
+        width: 92%;
+        margin: 0 auto;
+    }
 }
