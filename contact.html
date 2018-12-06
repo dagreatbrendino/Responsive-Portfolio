@@ -9,25 +9,27 @@
     <script src="main.js"></script>
 </head>
 <body>
-        <!-- This container holds all of the content for the header -->
-    <div>
-        <h1>Brendan Kelly</h1>
-        <nav><a href="index.html" target="blank">About</a> | <a href="portfolio.html" target="blank">Portfolio</a> | <a
-                href="contact.html" target="blank">Contact</a></nav>
+        <!-- This container holds the header -->
+    <div class="header">
+        <h1 class="brand">Brendan Kelly</h1>
+        <nav class="navlinks"><a href="index.html" target="blank">About</a> | <a href="portfolio.html" target="blank">Portfolio</a>
+            |  <a href="contact.html" target="blank">Contact</a>
+        </nav>
     </div>
 
-    <div>
-        <h2>Contact</h2>
-        <form action="mailto:brendanmkelly94@gmail.com" enctype="text/plain" method="post">
+    <div class="content">
+        <h2 class="contenthead">Contact</h2>
+        <form class="contact" action="mailto:brendanmkelly94@gmail.com" enctype="text/plain" method="post">
             <h3>Name</h3>
-            <input name="firstname" type="text" placeholder=" John Smith" />
+            <input class=field name="name" type="text" placeholder=" John Smith" />
             <h3>Email</h3>
-            <input name="email" type="text" placeholder=" example@email.com" />
+            <input class=field name="email" type="text" placeholder=" example@email.com" />
             <h3>Message</h3>
-            <textarea name="message"></textarea> <input type="submit" value="Submit" />
+            <textarea name="message"></textarea> 
+            <input class="sub" type="submit" value="Submit" />
         </form>
     </div>
-    
+
     <div>
         <p>copyright &copy;</p>
     </div>

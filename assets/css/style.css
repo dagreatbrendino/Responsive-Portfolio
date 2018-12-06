@@ -136,6 +136,10 @@ body{
     border: lightgray solid 1px;
     opacity: 1;
 }
+/* It is important that the anchor element be positioned relatively so that the project labels properly positon themselves */
+.projects a{
+    position: relative;
+}
 .projectLabels{
     position: absolute;
     text-align: center;
@@ -145,9 +149,6 @@ body{
     border-top: solid #6ed3cf 13px;
     border-bottom: solid #6ed3cf 13px;
     color: white;
-}
-.projects a{
-    position: relative;
 }
 /* contact header */
 /* #contact{
@@ -263,5 +264,27 @@ textarea{
     .projects img, .projects a{
         width: 100%;
         height: auto;
+    }
+    .contact{
+        width:92%;
+        margin: auto;
+    }
+    .field{
+        width: 100%;
+    }
+    textarea{
+        width: 100%;
+        height: 300px;
+        resize: none;
+    }
+    .sub{
+        color: white;
+        background-color: #6ed3cf;
+        border: none;
+        padding-left:25px;
+        padding-right: 25px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin: 20px 0;
     }
 }
